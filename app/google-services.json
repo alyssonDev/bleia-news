@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "220828230126",
+    "project_id": "bleia-news",
+    "storage_bucket": "bleia-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220828230126:android:feebd53c7c4e83d788eeff",
+        "android_client_info": {
+          "package_name": "com.projeto.bleianews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220828230126-54m5a80has1vcpsdgmje71k5r65vgo08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxpTzZQYjTSbDNCbEZgVVgYK15xv1vf6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220828230126-54m5a80has1vcpsdgmje71k5r65vgo08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

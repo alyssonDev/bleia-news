@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/background_custom_of_items"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/image_congregation"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:contentDescription="@string/image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/images"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txv_name_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        app:layout_constraintStart_toEndOf="@+id/image_congregation"
+        app:layout_constraintTop_toTopOf="@+id/image_congregation" />
+
+    <TextView
+        android:id="@+id/txv_descrition_event"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_congregation"
+        app:layout_constraintTop_toBottomOf="@+id/txv_name_event" />
+
+
+    <TextView
+        android:id="@+id/txv_address_event"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_congregation"
+        app:layout_constraintTop_toBottomOf="@+id/txv_descrition_event" />
+</androidx.constraintlayout.widget.ConstraintLayout>
